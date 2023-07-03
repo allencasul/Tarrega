@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="app.cordova.electron.tarrega" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Tarrega</name>
+    <description>Sample Apache Cordova Electron App</description>
+    <author email="allencasul.dev@gmail.com" href="https://cordova.apache.org">
+    Apache Cordova Team
+  </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <preference name="ElectronSettingsFilePath" value="res/electron/settings.json" />
+</widget>

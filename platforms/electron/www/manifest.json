@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "orientation": "any",
+  "start_url": "index.html",
+  "name": "Tarrega",
+  "short_name": "Tarrega",
+  "version": "app.cordova.electron.tarrega",
+  "description": "Sample Apache Cordova Electron App",
+  "author": "Apache Cordova Team"
+}
