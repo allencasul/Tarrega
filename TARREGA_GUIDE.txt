@@ -49,7 +49,7 @@ It is not necessary to build the Electron application for previewing. Since the 
 
 STEP# 6: Release (DevTools are shown by default on Debug Builds (without a flag or with --debug). If you want to hide the DevTools pass in the --release flag when building or running the application.)
 -------------------------------------
-- cordova run electron --release
+- cordova run electron --nobuild --release
 
 
 
