@@ -65,6 +65,7 @@ You can customize the browser window behavior directly via this directory: res/e
   "browserWindow": {
     "width": 800,
     "height": 600,
+    "autoHideMenuBar": false,
     "resizable": true,
     "fullscreen": false,
     "webPreferences": {
