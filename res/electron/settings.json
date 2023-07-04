@@ -2,6 +2,7 @@
   "browserWindow": {
     "width": 800,
     "height": 600,
+    "autoHideMenuBar": false,
     "resizable": true,
     "fullscreen": false,
     "webPreferences": {
