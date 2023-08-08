@@ -22,6 +22,9 @@ STEP# 2: Apache Cordova Framework Installation via NPM
 
 STEP# 3: Adding Platform:
 -------------------------------------
+
+(Run this command inside the "Tarrega Folder/Directory")
+
 - cordova platform add cordova-electron
 
 
