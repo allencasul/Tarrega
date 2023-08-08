@@ -16,30 +16,17 @@ STEP# 1: Make sure to have all of these installed on your machine.
 
 STEP# 2: Apache Cordova Framework Installation via NPM
 -------------------------------------
-- npm install -g cordova
+- npm install -g cordova
 
 
 
-STEP# 3: Check if cordova requirements successfully installed by running the command below:
--------------------------------------
-- cordova requirements android --verbose (Run this command inside the Lovelace folder)
-
-(You should be seeing a message something like this)
-
-Java JDK: installed 1.8.0
-Android SDK: installed true
-Android target: installed android-33,android-31,android-30,android-29
-Gradle: installed C:\gradle-7.5.1\bin\gradle.BAT
-
-
-
-STEP# 4: Adding Platform:
+STEP# 3: Adding Platform:
 -------------------------------------
 - cordova platform add cordova-electron
 
 
 
-STEP# 5: Previewing your app
+STEP# 4: Previewing your app
 -------------------------------------
 It is not necessary to build the Electron application for previewing. Since the building process can be slow, it is recommended to pass in the --nobuild flag to disable the build process when previewing.
 
@@ -47,13 +34,13 @@ It is not necessary to build the Electron application for previewing. Since the 
 
 
 
-STEP# 6: Release (DevTools are shown by default on Debug Builds (without a flag or with --debug). If you want to hide the DevTools pass in the --release flag when building or running the application.)
+STEP# 5: Release (DevTools are shown by default on Debug Builds (without a flag or with --debug). If you want to hide the DevTools pass in the --release flag when building or running the application.)
 -------------------------------------
 - cordova run electron --nobuild --release
 
 
 
-STEP# 7: Building your app
+STEP# 6: Building your app
 -------------------------------------
 - cordova build electron --release
 
