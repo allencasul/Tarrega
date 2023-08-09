@@ -5,7 +5,7 @@ Tarrega is mainly used to build desktop applications powered by Apache Cordova a
 
 ### https://cordova.apache.org (Apache Cordova)
 
-## STEP 1: Make sure to have all of these installed on your machine.
+### STEP 1: Make sure to have all of these installed on your machine.
 
 ```sh
 1. https://nodejs.org/en/
@@ -51,7 +51,7 @@ cordova run electron --nobuild --release
 cordova build electron --release
 ```
 
-## You can customize the browser window behavior directly via this directory: res/electron/settings.json
+### You can customize the browser window behavior directly via this directory: res/electron/settings.json
 
 ```sh
 {
