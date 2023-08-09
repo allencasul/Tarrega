@@ -17,13 +17,13 @@ Tarrega is mainly used to build desktop applications powered by Apache Cordova a
    Watch the installation process bit.ly/3JX1aXa
 ```
 
-# STEP 2: Apache Cordova Framework Installation via NPM
+### STEP 2: Apache Cordova Framework Installation via NPM
 
 ```sh
 npm install -g cordova
 ```
 
-## STEP 3: Adding Platform
+### STEP 3: Adding Platform
 
 ```sh
 (Run this command inside the "Tarrega Folder/Directory")
@@ -31,7 +31,7 @@ npm install -g cordova
 cordova platform add cordova-electron
 ```
 
-## STEP 4: Previewing your app
+### STEP 4: Previewing your app
 
 ```sh
 It is not necessary to build the Electron application for previewing. Since the building process can be slow, it is recommended to pass in the --nobuild flag to disable the build process when previewing.
@@ -39,13 +39,13 @@ It is not necessary to build the Electron application for previewing. Since the 
 cordova run electron --nobuild
 ```
 
-## STEP 5: Release (DevTools are shown by default on Debug Builds (without a flag or with --debug). If you want to hide the DevTools pass in the --release flag when building or running the application.)
+### STEP 5: Release (DevTools are shown by default on Debug Builds (without a flag or with --debug). If you want to hide the DevTools pass in the --release flag when building or running the application.)
 
 ```sh
 cordova run electron --nobuild --release
 ```
 
-## STEP 6: Building your app
+### STEP 6: Building your app
 
 ```sh
 cordova build electron --release
@@ -68,7 +68,7 @@ cordova build electron --release
 }
 ```
 
-## Plugins
+### Plugins
 
 All browser-based plugins are usable with the Electron platform.
 
